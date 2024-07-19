@@ -33,8 +33,8 @@ no_button.addEventListener('click', () => {
     const sizes = [40, 50, 30, 35, 45]
     const random = Math.floor(Math.random() * sizes.length);
     size += sizes[random]
-    yes_button.style.height = ${size}px;
-    yes_button.style.width = ${size}px;
+    yes_button.style.height = `${size}px`;
+    yes_button.style.width = `${size}px`;
     let total = answers.length;
     // change button text
     if (i < total - 1) {
